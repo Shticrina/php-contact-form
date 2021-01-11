@@ -19,7 +19,7 @@ $mail->isHTML();
 // $mail->Username = 'ee1d28d5389d9a';
 // $mail->Password = 'ff9acb09150fb2';
 $mail->Username = 'cristinadinca.cd@gmail.com';
-$mail->Password = 'Lavinelu.dinca2';
+$mail->Password = '************';
 
 /*$mail->SetFrom('cristinadinca.cd@gmail.com', 'Just me');
 $mail->Subject = "Your email Subject";
