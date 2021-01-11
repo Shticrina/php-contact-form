@@ -1,0 +1,56 @@
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+body {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+
+/* Style Header */
+#myheader {
+	background-color: #024c62;
+}
+
+#myheader h2 {
+	font-weight: 600;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+
+#username {
+	color: #fe6767;
+}
+
+/* Style Footer */
+#myfooter {
+	font-size: 12px;
+	background-color: #053543;
+}
+
+/***************** Responsive ******************/
+
+/*extra Small devices*/
+@media (max-width: 480px) {
+	#myheader h2 {
+		padding-left: 3rem !important;
+		padding-right: 3rem !important;
+	} 
+
+	#myheader h2 {
+		font-size: 26px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
